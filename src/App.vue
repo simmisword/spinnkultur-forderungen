@@ -1,11 +1,11 @@
 <template>
   <div id="nav">
-    <div><img class="logo" src="./assets/spinnkultur.png" alt="logo"></div>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <div><img class="logo" src="./assets/spinnkultur.png" alt="logo" /></div>
   </div>
-  <router-view/>
+  <router-view />
 </template>
+
+
 
 <style>
 #app {
@@ -32,5 +32,4 @@
 .logo {
   height: 50px;
 }
-
 </style>
